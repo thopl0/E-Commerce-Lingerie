@@ -1,4 +1,6 @@
 import React from "react";
+import Accordion from "./Accordion";
+import AccordionComp from "./AccordionComp";
 
 const Faqs = () => {
   return (
@@ -9,6 +11,10 @@ const Faqs = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
           eaque?
         </span>
+
+        <div className="my-10 flex flex-col gap-5">
+          <AccordionComp />
+        </div>
       </div>
     </div>
   );

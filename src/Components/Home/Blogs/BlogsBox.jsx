@@ -33,13 +33,13 @@ const BlogsBox = () => {
       {blogDetails.map((detail) => (
         <div
           key={detail.id}
-          className="w-[400px] h-fit shadow-md pb-5 rounded-lg"
+          className="w-[400px] h-[500px] shadow-md pb-5 rounded-lg"
         >
-          <div className="h-72 w-full overflow-hidden rounded-t-lg">
+          <div className="h-[350px] w-full overflow-hidden rounded-t-lg">
             <img
               src={detail.img}
               alt=""
-              className="h-full w-full object-cover"
+              className="h-[400px] w-full object-cover"
             />
           </div>
 

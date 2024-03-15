@@ -6,6 +6,7 @@ import Popular from "../Components/Home/Popular/Popular";
 import AboutUs from "../Components/Home/AboutUs/AboutUs";
 import Blogs from "../Components/Home/Blogs/Blogs";
 import Hovers from "../Components/Home/Hovers/Hovers";
+import Faqs from "../Components/Home/Faqs/Faqs";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Popular />
       <AboutUs />
       <Blogs />
+      <Faqs />
     </div>
   );
 };

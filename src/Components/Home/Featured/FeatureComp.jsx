@@ -6,7 +6,7 @@ const FeatureComp = ({ selectedCategory }) => {
     {
       id: 1,
       img: braImg,
-      title: "Dummy Title",
+      title: "Dummy Title ",
       price: "230",
       discountedPrice: "200",
       discount: "-13%",
@@ -205,6 +205,7 @@ const FeatureComp = ({ selectedCategory }) => {
     <>
       {filteredDetails.map((detail) => (
         <Box
+          className="shadow-none"
           key={detail.id}
           img={detail.img}
           title={detail.title}

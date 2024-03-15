@@ -4,7 +4,7 @@ import BlogsBox from "./BlogsBox";
 
 const Blogs = () => {
   return (
-    <div className=" my-20 h-screen">
+    <div className=" my-24 ">
       <div className="mx-20">
         <p className="text-3xl font-medium mx-10">Latest Ongoings</p>
         <div className="flex justify-between mx-10">

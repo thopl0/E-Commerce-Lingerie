@@ -54,10 +54,10 @@ const NavBar = () => {
         </ul>
         <div className="text-white md:flex hidden gap-10 mx-10">
           <span>
-            <FaUser size={20} />
+            <FaUser title="Profile" size={20} />
           </span>
           <span>
-            <RiShoppingCartLine size={20} />
+            <RiShoppingCartLine title="Cart" size={20} />
           </span>
         </div>
       </div>
